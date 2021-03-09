@@ -1,0 +1,253 @@
+:root {
+    --primary-color: #212121;
+    --black-color: #000000;
+    --grey-color: #757575;
+    --blue-color: #2196F3;
+    --white-color: #FFFFFF;
+}
+
+
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #212121;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header logo*/
+
+.logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo-blue {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-footer {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.portfolio:active {
+ color: #000000;
+}
+
+/* Hero / CSS fot index.html */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+}
+
+
+/* Site-nav */
+
+.site-nav.link {
+    color: #212121;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+.site-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/* Section */
+
+.section .section-title.h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .section-title.h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section .section-title.h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section .benefits-text {
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Team CSS */
+
+.team .team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team .team-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Buttons */
+.btn:hover,
+.btn:focus {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+/* Portfolio CSS */
+
+/* Service */
+
+.section .service-title {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.section .service-text {
+   font-size: 16px;
+   line-height: 1.87;
+   letter-spacing: 0.03em;
+   color: #757575;
+}
+
+
+/* Header and Footer contact links */
+
+footer {
+    background-color: #2F303A;
+}
+
+.link {
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav-contact a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.footer-contact a {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.link:hover,
+.link:focus
+    {
+    color: #2196F3;
+
+}
+
+.address a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address.link:hover,
+.address.link:focus {
+    color: #2196F3;
+}
+
+
+
+
+.address .street .link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+}
+
+.address .street {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.address.link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    ;
+}
