@@ -10,7 +10,19 @@
 body {
     font-family: 'Roboto',sans-serif;
     color: #212121;
+    margin: 0;
+    
 }
+
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 ul {
     list-style: none;
@@ -18,12 +30,21 @@ ul {
 
 /* Header logo*/
 
+.page-header {
+    background-color: #FFFFFF;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .logo {
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
-    /* identical to box height */
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
@@ -56,7 +77,19 @@ ul {
 /* Hero / CSS fot index.html */
 
 .hero {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #2F303A;
+
+}
+
+.hero-title {
+    padding: 452px, 200px, 452px, 280px;
+    margin: 0;
+    text-align: center;
 }
 
 .hero .hero-title {
@@ -79,6 +112,12 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-btn {
@@ -95,6 +134,10 @@ ul {
 
 
 /* Site-nav */
+
+.site-nav {
+    margin: 0;
+}
 
 .site-nav.link {
     color: #212121;
@@ -113,12 +156,32 @@ ul {
 
 /* Section */
 
+.company-benefits {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+
+
+.section, ul {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section .section-title.h2 {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin: 0;
+
 }
 
 .team .section-title.h2 {
@@ -127,6 +190,7 @@ ul {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin: 0;
 }
 
 .section .section-title.h3 {
@@ -135,12 +199,13 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .section .benefits-text {
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
+    margin: 0;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -192,6 +257,11 @@ ul {
 /* Header and Footer contact links */
 
 footer {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #2F303A;
 }
 
@@ -206,6 +276,10 @@ footer {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+}
+
+.nav-contact {
+    margin: 0;
 }
 
 .footer-contact a {
