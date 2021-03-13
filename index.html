@@ -19,35 +19,42 @@
     />
   </head>
   <body>
-    <header class="page-header">
-      <a href="./index.html" class="logo" lang="en"
-        ><span class="logo-blue">Web</span>Studio</a
-      >
-      <ul class="site-nav">
-        <li><a href="./index.html" class="link current">Студия</a></li>
-        <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-        <li><a href="/" class="link">Контакты</a></li>
-      </ul>
-      <nav>
-        <ul class="nav-contact">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
+    <div class="container">
+      <header class="page-header">
+        <a href="./index.html" class="logo" lang="en"
+          ><span class="logo-blue">Web</span>Studio</a
+        >
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="/" class="link">Контакты</a></li>
         </ul>
-      </nav>
-    </header>
+
+        <div>
+          <nav>
+            <ul class="nav-contact">
+              <li>
+                <a href="mailto:info@devstudio.com" class="link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
 
     <!-- Герой -->
     <main>
-      <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-btn" type="button">Заказать услугу</button>
-      </section>
+      <div class="hero-div">
+        <section class="hero">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero-btn" type="button">Заказать услугу</button>
+        </section>
+      </div>
 
       <!--Преимущества / Benefits-->
 
@@ -93,17 +100,28 @@
         <h2 class="section-title h2">Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img src="./images/box1.jpg" alt="Программирование" width="370" />
+            <img
+              src="./images/box1.jpg"
+              alt="Программирование"
+              width="370"
+              class="work-img1"
+            />
           </li>
           <li>
             <img
               src="./images/box2.jpg"
               alt="Разработка приложений"
               width="370"
+              class="work-img2"
             />
           </li>
           <li>
-            <img src="./images/box3.jpg" alt="Графика" width="370" />
+            <img
+              src="./images/box3.jpg"
+              alt="Графика"
+              width="370"
+              class="work-img3"
+            />
           </li>
         </ul>
       </section>
@@ -114,22 +132,42 @@
         <h2 class="section-title h2">Наша команда</h2>
         <ul>
           <li>
-            <img src="./images/igor.jpg" alt="Игорь" width="270" />
+            <img
+              src="./images/igor.jpg"
+              alt="Игорь"
+              width="270"
+              class="names"
+            />
             <h3 class="team-name">Игорь Демьяненко</h3>
             <p lang="en" class="team-title">Product Designer</p>
           </li>
           <li>
-            <img src="./images/olga.jpg" alt="Ольга" width="270" />
+            <img
+              src="./images/olga.jpg"
+              alt="Ольга"
+              width="270"
+              class="names"
+            />
             <h3 class="team-name">Ольга Репина</h3>
             <p lang="en" class="team-title">Frontend Developer</p>
           </li>
           <li>
-            <img src="./images/nikolai.jpg" alt="Николай" width="270" />
+            <img
+              src="./images/nikolai.jpg"
+              alt="Николай"
+              width="270"
+              class="names"
+            />
             <h3 class="team-name">Николай Тарасов</h3>
             <p lang="en" class="team-title">Marketing</p>
           </li>
           <li>
-            <img src="./images/mihail.jpg" alt="Михаил" width="270" />
+            <img
+              src="./images/mihail.jpg"
+              alt="Михаил"
+              width="270"
+              class="names"
+            />
             <h3 class="team-name">Михаил Ермаков</h3>
             <p lang="en" class="team-title">UI Designer</p>
           </li>
