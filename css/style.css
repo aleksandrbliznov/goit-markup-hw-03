@@ -25,6 +25,8 @@ img {
     display: block;
 }
 
+/* Hidden items  */
+
 .visually-hidden {
     position: absolute !important;
     clip: rect(1px 1px 1px 1px);
@@ -36,7 +38,7 @@ img {
     overflow: hidden;
 }
 
-/* Header logo*/
+/* Header logo footer logo*/
 
 .logo {
     font-family: Raleway;
@@ -73,7 +75,7 @@ img {
  color: #000000;
 }
 
-/* Hero / Main */
+/* Hero / Main / Container */
 
 .container {
    width: 1200px;
@@ -186,10 +188,11 @@ img {
 .section .benefits-text {
     font-size: 14px;
     line-height: 1.71;
-    /* or 171% */
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* Benefits Section  */
 
 .benefits {
     display: flex;
@@ -225,7 +228,7 @@ img {
     margin-right: 30px;
 }
 
-/* Team CSS */
+/* Team */
 
 .team-box {
     background-color: #f5f4fa;
@@ -271,6 +274,7 @@ img {
 }
 
 /* Buttons */
+
 .btn:hover,
 .btn:focus {
     background-color: #2196F3;
@@ -336,7 +340,7 @@ img {
     padding: 20px 24px;
 }
 
-/* Portfolio */
+/* Buttons class */
 
 .buttons {
     display: flex;
@@ -431,9 +435,6 @@ footer {
 .address.link:focus {
     color: #2196F3;
 }
-
-
-
 
 .address .street .link {
     font-size: 14px;
